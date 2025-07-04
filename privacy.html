@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - chip health</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap&v=2"
+        rel="stylesheet">
+    <style>
+        /* Cache busting: v2 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #685a4e 0%, #8b7355 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: white;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #685a4e;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .last-updated {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            border-left: 4px solid #685a4e;
+        }
+
+        .section {
+            margin-bottom: 2.5rem;
+        }
+
+        .section h2 {
+            color: #685a4e;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .section h3 {
+            color: #333;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.5rem 0;
+        }
+
+        .section p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+        .section ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .section li {
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+
+        .highlight-box {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #685a4e 0%, #8b7355 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .contact-info h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-info p {
+            color: rgba(255, 255, 255, 0.9);
+            margin: 0.5rem 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #685a4e;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 12px rgba(104, 90, 78, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(104, 90, 78, 0.6);
+        }
+
+        .table-of-contents {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .table-of-contents h3 {
+            color: #685a4e;
+            margin-bottom: 1rem;
+        }
+
+        .table-of-contents ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .table-of-contents li {
+            margin-bottom: 0.5rem;
+        }
+
+        .table-of-contents a {
+            color: #685a4e;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .table-of-contents a:hover {
+            color: #8b7355;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+
+            .logo {
+                font-size: 2rem;
+            }
+
+            .back-to-top {
+                bottom: 1rem;
+                right: 1rem;
+                width: 45px;
+                height: 45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">chip health</div>
+            <div class="subtitle">Privacy Policy</div>
+        </div>
+
+        <div class="last-updated">
+            <strong>Last Updated:</strong> July 2025
+        </div>
+
+        <div class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#introduction">1. Introduction</a></li>
+                <li><a href="#information-collected">2. Information We Collect</a></li>
+                <li><a href="#how-we-use">3. How We Use Your Information</a></li>
+                <li><a href="#data-storage">4. Data Storage and Security</a></li>
+                <li><a href="#data-sharing">5. Data Sharing and Disclosure</a></li>
+                <li><a href="#your-rights">6. Your Rights and Choices</a></li>
+                <li><a href="#third-party">7. Third-Party Services</a></li>
+                <li><a href="#children">8. Children's Privacy</a></li>
+                <li><a href="#international">9. International Users</a></li>
+                <li><a href="#changes">10. Changes to This Policy</a></li>
+                <li><a href="#contact">11. Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="introduction">
+            <h2>1. Introduction</h2>
+            <p>Welcome to chip health ("we," "our," or "us"). We are committed to protecting your privacy and ensuring
+                the security of your personal information. This Privacy Policy explains how we collect, use, disclose,
+                and safeguard your information when you use our mobile application and related services.</p>
+
+            <div class="highlight-box">
+                <strong>Our Commitment:</strong> Your privacy is fundamental to our mission of providing safe, secure,
+                and personalized mental health support. We believe in transparency and giving you control over your
+                personal information.
+            </div>
+        </div>
+
+        <div class="section" id="information-collected">
+            <h2>2. Information We Collect</h2>
+
+            <h3>Personal Information</h3>
+            <ul>
+                <li><strong>Email Address:</strong> Used for account creation, authentication, and communication</li>
+                <li><strong>Account Data:</strong> Account creation date and last update timestamps</li>
+            </ul>
+
+            <h3>Health and Wellness Data</h3>
+            <ul>
+                <li><strong>Mood Check-ins:</strong> Daily mood ratings (1-5 scale) and associated notes</li>
+                <li><strong>Journal Entries:</strong> Personal reflections and thoughts you choose to share</li>
+                <li><strong>AI-Generated Insights:</strong> Wellness insights generated from your journal entries</li>
+                <li><strong>Community Posts:</strong> Posts you share in community categories (gratitude, reflection,
+                    growth)</li>
+                <li><strong>Community Interactions:</strong> Replies and responses to community posts</li>
+            </ul>
+
+            <h3>Technical Information</h3>
+            <ul>
+                <li><strong>Device Information:</strong> Device type, operating system, and app version</li>
+                <li><strong>Usage Analytics:</strong> App usage patterns, feature interactions, and performance metrics
+                </li>
+                <li><strong>Session Data:</strong> Login/logout times and session duration</li>
+                <li><strong>Error Logs:</strong> Technical errors and app performance issues</li>
+            </ul>
+
+            <h3>Third-Party Services</h3>
+            <ul>
+                <li><strong>Firebase Services:</strong> Authentication, database storage, analytics, and file storage
+                </li>
+                <li><strong>OpenAI API:</strong> AI-powered insights and content moderation</li>
+                <li><strong>Google Fonts:</strong> Typography services</li>
+            </ul>
+        </div>
+
+        <div class="section" id="how-we-use">
+            <h2>3. How We Use Your Information</h2>
+
+            <h3>Core App Functionality</h3>
+            <ul>
+                <li><strong>Account Management:</strong> Creating and managing your user account</li>
+                <li><strong>Mood Tracking:</strong> Storing and analyzing your daily mood check-ins</li>
+                <li><strong>Journal Features:</strong> Processing your journal entries and generating wellness insights
+                </li>
+                <li><strong>Community Features:</strong> Enabling social interactions and content sharing</li>
+                <li><strong>AI Coaching:</strong> Providing personalized mental health coaching and insights</li>
+            </ul>
+
+            <h3>Service Improvement</h3>
+            <ul>
+                <li><strong>Analytics:</strong> Understanding app usage patterns to improve user experience</li>
+                <li><strong>Performance Monitoring:</strong> Identifying and fixing technical issues</li>
+                <li><strong>Feature Development:</strong> Developing new features based on user behavior</li>
+            </ul>
+
+            <h3>Content Moderation</h3>
+            <ul>
+                <li><strong>Community Safety:</strong> Using AI-powered moderation to ensure community guidelines
+                    compliance</li>
+                <li><strong>Inappropriate Content Detection:</strong> Filtering content that violates our community
+                    standards</li>
+            </ul>
+
+            <h3>Communication</h3>
+            <ul>
+                <li><strong>Account Notifications:</strong> Important account-related communications</li>
+                <li><strong>Service Updates:</strong> Information about app updates and new features</li>
+            </ul>
+        </div>
+
+        <div class="section" id="data-storage">
+            <h2>4. Data Storage and Security</h2>
+
+            <h3>Storage Location</h3>
+            <p>Your data is stored securely using Firebase services:</p>
+            <ul>
+                <li><strong>Firebase Authentication:</strong> Secure user authentication</li>
+                <li><strong>Cloud Firestore:</strong> Encrypted database storage</li>
+                <li><strong>Firebase Storage:</strong> Secure file storage for profile images</li>
+                <li><strong>Firebase Analytics:</strong> Anonymous usage analytics</li>
+            </ul>
+
+            <h3>Security Measures</h3>
+            <ul>
+                <li><strong>Encryption:</strong> All data is encrypted in transit and at rest</li>
+                <li><strong>Authentication:</strong> Secure login using Firebase Authentication</li>
+                <li><strong>Access Controls:</strong> Limited access to personal data by authorized personnel only</li>
+                <li><strong>Regular Security Audits:</strong> Ongoing security assessments and updates</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Security First:</strong> We implement industry-standard security measures to protect your
+                sensitive health and personal information. Our security practices are regularly reviewed and updated to
+                address emerging threats.
+            </div>
+        </div>
+
+        <div class="section" id="data-sharing">
+            <h2>5. Data Sharing and Disclosure</h2>
+
+            <div class="highlight-box">
+                <strong>We Do Not Sell Your Data:</strong> We do not sell, rent, or trade your personal information to
+                third parties.
+            </div>
+
+            <h3>Limited Sharing</h3>
+            <p>We may share your information only in the following circumstances:</p>
+            <ul>
+                <li><strong>Service Providers:</strong> With trusted third-party services (Firebase, OpenAI) that help
+                    us operate the app</li>
+                <li><strong>Legal Requirements:</strong> When required by law or to protect our rights and safety</li>
+                <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets (with
+                    notice to users)</li>
+            </ul>
+
+            <h3>Community Content</h3>
+            <p>Posts and replies you share in the community are visible to other users, but your personal information
+                (email, profile details) remains private.</p>
+        </div>
+
+        <div class="section" id="your-rights">
+            <h2>6. Your Rights and Choices</h2>
+
+            <h3>Access and Control</h3>
+            <ul>
+                <li><strong>View Your Data:</strong> Access your mood check-ins, journal entries, and profile
+                    information</li>
+                <li><strong>Update Information:</strong> Modify your profile and account settings</li>
+                <li><strong>Delete Account:</strong> Permanently delete your account and all associated data</li>
+                <li><strong>Export Data:</strong> Request a copy of your personal data</li>
+            </ul>
+
+            <h3>Privacy Settings</h3>
+            <ul>
+                <li><strong>Profile Visibility:</strong> Control what information is visible to other users</li>
+                <li><strong>Analytics Opt-out:</strong> Disable analytics tracking (may affect app functionality)</li>
+                <li><strong>Community Participation:</strong> Choose whether to participate in community features</li>
+            </ul>
+
+            <h3>Data Retention</h3>
+            <ul>
+                <li><strong>Active Accounts:</strong> Data is retained while your account is active</li>
+                <li><strong>Deleted Accounts:</strong> All data is permanently deleted within 30 days of account
+                    deletion</li>
+                <li><strong>Inactive Accounts:</strong> Data may be deleted after extended periods of inactivity</li>
+            </ul>
+        </div>
+
+        <div class="section" id="third-party">
+            <h2>7. Third-Party Services</h2>
+
+            <h3>Firebase (Google)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Authentication, database, storage, and analytics</li>
+                <li><strong>Data Shared:</strong> Account information, app usage data, and user-generated content</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy"
+                        target="_blank">Firebase Privacy Policy</a></li>
+            </ul>
+
+            <h3>OpenAI</h3>
+            <ul>
+                <li><strong>Purpose:</strong> AI-powered insights and content moderation</li>
+                <li><strong>Data Shared:</strong> Journal entries and community posts for processing</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://openai.com/privacy" target="_blank">OpenAI Privacy
+                        Policy</a></li>
+            </ul>
+
+            <h3>Google Fonts</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Typography services</li>
+                <li><strong>Data Shared:</strong> IP address and font usage information</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy"
+                        target="_blank">Google Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="children">
+            <h2>8. Children's Privacy</h2>
+            <p>Our app is not intended for children under 13 years of age. We do not knowingly collect personal
+                information from children under 13. If you are a parent or guardian and believe your child has provided
+                us with personal information, please contact us immediately.</p>
+        </div>
+
+        <div class="section" id="international">
+            <h2>9. International Users</h2>
+            <p>If you are using our app from outside the United States, please note that your information may be
+                transferred to, stored, and processed in the United States where our servers are located. By using our
+                app, you consent to the transfer of your information to Canada and the United States.</p>
+
+            <h3>Legal Basis for Processing (EU Users)</h3>
+            <p>If you are located in the European Union, our legal basis for processing your personal information
+                includes:</p>
+            <ul>
+                <li><strong>Consent:</strong> For optional features and analytics</li>
+                <li><strong>Contract Performance:</strong> To provide the core app functionality</li>
+                <li><strong>Legitimate Interest:</strong> For service improvement and security</li>
+                <li><strong>Legal Obligation:</strong> To comply with applicable laws</li>
+            </ul>
+            <p>You have the right to withdraw consent, object to processing, and request data portability or erasure
+                under applicable data protection laws.</p>
+        </div>
+
+        <div class="section" id="changes">
+            <h2>10. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+            <ul>
+                <li>Sending you an email notification</li>
+                <li>Updating the "Last Updated" date</li>
+            </ul>
+            <p>Your continued use of the app after any changes constitutes acceptance of the updated Privacy Policy.</p>
+        </div>
+
+        <div class="contact-info" id="contact">
+            <h2>11. Contact Us</h2>
+            <p><strong>Website:</strong> <a href="https://chiphealth.ca" style="color: white;">chiphealth.ca</a></p>
+        </div>
+    </div>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Show/hide back to top button
+        window.addEventListener('scroll', function () {
+            const backToTop = document.querySelector('.back-to-top');
+            if (window.scrollY > 300) {
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // Initialize back to top button
+        document.querySelector('.back-to-top').style.display = 'none';
+    </script>
+</body>
+
+</html>
